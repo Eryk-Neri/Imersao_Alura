@@ -24,6 +24,7 @@
   },
   "contributors": [],
   "scripts": {
+    "start": "node --watch server.js",
     "dev": "",
     "test": ""
   },
