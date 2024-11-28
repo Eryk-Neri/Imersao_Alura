@@ -6,6 +6,8 @@ import routes from "./src/routes/postsRoutes.js";
 // Criando uma instância do express
 const app = express();
 
+app.use(express.static("uploads"));
+
 // Utilizando as rotas definidas
 routes(app)
 
